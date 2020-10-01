@@ -1,0 +1,25 @@
+.delete-button {
+    background: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin-left: 10px;
+}
+
+.todo-item {
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+}
+
+.todo-item label {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    cursor: pointer;
+}
+
+.todo-item label input {
+    margin-right: 5px;
+    cursor: pointer;
+}
